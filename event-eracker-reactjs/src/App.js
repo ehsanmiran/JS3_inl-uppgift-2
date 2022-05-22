@@ -1,22 +1,53 @@
-// This file is to be the HTML-like space.
-
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { useState } from 'react'
 import './App.css';
-import Views from './Views/Views';
 
 import Navbar from './components/Navbar';
-import AddEvent from './components/AddEvent';
-import EventsList from './components/EventsList';
+import EventsList from './Views/EventsList'
+import AddEvent from './Views/AddEvent'
+import PastEventsList from './Views/PastEventsList'
 
 function App() {
+
+  const [events, setEvents] = useState([
+    {
+      id: '1',
+      title: 'First Event',
+      datentime: '202205222353',
+      description: 'This is just a test for first event.'
+    },
+    {
+      id: '2',
+      title: 'Second Event',
+      datentime: '202205222354',
+      description: 'This is just a test for second event.'
+    },
+    {
+      id: '3',
+      title: 'Third Event',
+      datentime: '202205222354',
+      description: 'This is just a test for third event.'
+    },
+    {
+      id: '4',
+      title: 'Fourth Event',
+      datentime: '202205222354',
+      description: 'This is just a test for fourth event.'
+    }
+  ])
+
   return (
     <div className="App">
       <div className='container'>
         <Navbar />
-        <Views />
-        <EventsList />
-      </div>
-      <div className='container'>
-        <AddEvent />
+        
+        <Routes>
+          <Route path='/' element={ <EventsList events={events}/> } />
+          <Route path='/addevent' element={ <AddEvent /> } />
+          <Route path='/pastevents' element={ <PastEventsList events={events}/> } />
+        </Routes>
+
       </div>
     </div>
   );

@@ -10,8 +10,8 @@ const Navbar = () => {
         <h1>MY EVENTS</h1>
       </Link>
       <ul className='nav-links'>
-        <li className='liActive'><NavLink to="/addEvent" className="nav-link">Add New Event</NavLink></li>
-        <li className='liActive'><NavLink to="/" className="nav-link">Show Past Events</NavLink></li>
+        <li className='liActive'><NavLink to="/addevent" className="nav-link">Add Event</NavLink></li>
+        <li className='liActive'><NavLink to="/pastevents" className="nav-link">Past Events</NavLink></li>
       </ul>
     </nav>
   )
