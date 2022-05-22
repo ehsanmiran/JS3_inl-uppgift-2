@@ -1,4 +1,5 @@
 import React from 'react'
+import DateTimePicker from './DateTimePicker'
 
 const AddEvent = () => {
   return (
@@ -12,7 +13,7 @@ const AddEvent = () => {
           <div className='field-warp'>
             <input type="text" name='title' placeholder='Enter a title...' className='input' />
           </div>
-
+            <DateTimePicker />
 
           
           <div className='field-warp'>
