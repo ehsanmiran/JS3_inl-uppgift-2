@@ -1,8 +1,11 @@
 // This file is to be the HTML-like space.
 
 import './App.css';
-import Navbar from './components/Navbar';
 import Views from './Views/Views';
+
+import Navbar from './components/Navbar';
+import AddEvent from './components/AddEvent';
+import EventsList from './components/EventsList';
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
       <div className='container'>
         <Navbar />
         <Views />
+        <EventsList />
+      </div>
+      <div className='container'>
+        <AddEvent />
       </div>
     </div>
   );
