@@ -12,6 +12,9 @@ const AddEvent = () => {
           <div className='field-warp'>
             <input type="text" name='title' placeholder='Enter a title...' className='input' />
           </div>
+
+
+          
           <div className='field-warp'>
             <textarea type="textarea" name='description' placeholder='Enter a description...' className='input txt-area' />
           </div>
