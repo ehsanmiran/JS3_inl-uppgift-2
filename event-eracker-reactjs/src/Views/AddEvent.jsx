@@ -1,7 +1,8 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const AddEvent = () => {
-
+  const navigate = useNavigate()
   const [title, setTitle] = useState('')
   const [timeStamp, setTimeStamp] = useState('')
   const [description, setDescription] = useState('')
@@ -22,7 +23,9 @@ const AddEvent = () => {
       setTimeStamp('')
       setDescription('')
       setLoading(false)
+      
     })
+    setTimeout ( () => navigate('/'), 500); 
   }
 
   return (
