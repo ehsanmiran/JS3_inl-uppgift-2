@@ -11,6 +11,12 @@
       "timeStamp": 1653408000000,
       "description": "I hope it will be easy ;)",
       "id": 2
+    },
+    {
+      "title": "This event is just a test",
+      "timeStamp": 1654004580000,
+      "description": "Test",
+      "id": 3
     }
   ]
 }

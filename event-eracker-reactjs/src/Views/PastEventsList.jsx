@@ -21,7 +21,9 @@ const PastEventsList = () => {
     <div className='listBody'>
       { loading && <div> Loading...</div> }
       {events.length ? events.map(event => (
+        event.timeStamp < Date.parse(Date()) ?
         <Event key={event.id} event={event}/>
+        : console.log(event.timeStamp, Date.parse(Date()))
       ))
       : 
       !loading && <p>No listed event has past yet.</p> 

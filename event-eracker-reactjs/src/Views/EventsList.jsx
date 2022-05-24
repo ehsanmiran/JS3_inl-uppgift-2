@@ -21,10 +21,11 @@ const EventsList = () => {
     <div className='listBody'>
       { loading && <div> Loading...</div> }
       {events && events.length ? events.map(event => (
-        <Event key={event.id} event={event}/>
-      ))
-      : 
-      !loading && <p>You are not waiting for any upcoming event. You may like to add an event!</p>
+        event.timeStamp > Date.parse(Date()) ? <Event key={event.id} event={event}/>
+        : console.log(event.timeStamp, Date.parse(Date()))
+        ))
+        : 
+        !loading && <p>You are not waiting for any upcoming event. You may like to add an event!</p>
       }
     </div>
   )
