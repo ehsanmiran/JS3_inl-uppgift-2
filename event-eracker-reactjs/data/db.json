@@ -1,16 +1,22 @@
 {
   "events": [
     {
-      "id": 1,
       "title": "1st event",
-      "datentime": "202205222118",
-      "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now."
+      "timpstamp": "1202205222118",
+      "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now.",
+      "id": 1
     },
     {
-      "id": 2,
       "title": "2nd event",
-      "datentime": "202205222120",
-      "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now."
+      "timpstamp": "1202205222120",
+      "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now.",
+      "id": 2
+    },
+    {
+      "title": "3rd Event Test",
+      "timeStamp": "2022-05-24T04:47",
+      "description": "Test",
+      "id": 3
     }
   ]
 }

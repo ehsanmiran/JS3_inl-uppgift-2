@@ -14,28 +14,29 @@ function App() {
     {
       id: '1',
       title: 'First Event',
-      datentime: '202205222353',
+      timpstamp: '202205222353',
       description: 'This is just a test for first event.'
     },
     {
       id: '2',
       title: 'Second Event',
-      datentime: '202205222354',
+      timpstamp: '202205222354',
       description: 'This is just a test for second event.'
     },
     {
       id: '3',
       title: 'Third Event',
-      datentime: '202205222354',
+      timpstamp: '202205222354',
       description: 'This is just a test for third event.'
     },
     {
       id: '4',
       title: 'Fourth Event',
-      datentime: '202205222354',
+      timpstamp: '202205222354',
       description: 'This is just a test for fourth event.'
     }
   ])
+
 
   return (
     <div className="App">
