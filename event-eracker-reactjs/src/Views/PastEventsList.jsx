@@ -12,6 +12,7 @@ const PastEventsList = () => {
         return res.json();
       })
       .then(data => {
+        data.sort((a, b) => { return b.timeStamp - a.timeStamp })
         setEvents(data);
         setLoading(false)
       })

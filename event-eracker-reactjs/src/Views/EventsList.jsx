@@ -12,9 +12,11 @@ const EventsList = () => {
         return res.json();
       })
       .then(data => {
+        data.sort((a, b) => { return a.timeStamp - b.timeStamp })
         setEvents(data);
         setLoading(false)
       })
+      
   }, []);
 
   return (
