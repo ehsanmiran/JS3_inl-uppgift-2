@@ -194,3 +194,9 @@ textarea {
   padding: 0 19px 0;
   margin-bottom: 13px !important ;
 }
+.pastevents h3,p{
+  color: #7e6e58 !important;
+}
+.pastevents button{
+  background : #5d5141 !important;
+}

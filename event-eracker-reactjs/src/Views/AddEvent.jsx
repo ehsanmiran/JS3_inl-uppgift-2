@@ -7,9 +7,17 @@ const AddEvent = () => {
   const [timeStamp, setTimeStamp] = useState('')
   const [description, setDescription] = useState('')
   const [loading, setLoading] = useState(false)
+  const [verification, setVerification] = useState(true)
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(title.length === 0 | timeStamp.length === 0) {
+      setVerification(false);
+      return
+    }else{
+        setVerification(true)
+    }
+    
     const event = {title, timeStamp: Date.parse(timeStamp), description};
 
     setLoading(true)
@@ -46,6 +54,7 @@ const AddEvent = () => {
         </div>
         {!loading && <button className='btn'>Add event</button>}
         {loading && <button className='btn'>Adding...</button>}
+        {!verification && <p>Tile, Date and Time can not be empty.</p>}
       </form>
     </div>
   )

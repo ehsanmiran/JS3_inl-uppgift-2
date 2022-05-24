@@ -19,7 +19,7 @@ const PastEventsList = () => {
   }, []);
 
   return (
-    <div className='listBody'>
+    <div className='listBody pastevents'>
       { loading && <div> Loading...</div> }
       {events.length ? events.map(event => (
         event.timeStamp < Date.parse(Date()) &&
