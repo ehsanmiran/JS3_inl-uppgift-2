@@ -1,76 +1,10 @@
 {
   "events": [
     {
-      "title": "This is the fist event to add using this site",
-      "timeStamp": 1653399240000,
-      "description": "I have made everything functionally working. I hope so.\nat this moment.",
-      "id": 1
-    },
-    {
-      "title": "I need to finish events sorting soon",
-      "timeStamp": 1653408000000,
-      "description": "I hope it will be easy ;)",
+      "title": "Meeting on Teams with group C",
+      "timeStamp": 1653476400000,
+      "description": "",
       "id": 2
-    },
-    {
-      "title": "This event is just a test",
-      "timeStamp": 1654004580000,
-      "description": "Test",
-      "id": 3
-    },
-    {
-      "title": "test",
-      "timeStamp": 1653403020000,
-      "description": "test",
-      "id": 4
-    },
-    {
-      "title": "Test",
-      "timeStamp": 1653403680000,
-      "description": "",
-      "id": 5
-    },
-    {
-      "title": "test",
-      "timeStamp": 1653404040000,
-      "description": "",
-      "id": 6
-    },
-    {
-      "title": "sdsd",
-      "timeStamp": 1653404280000,
-      "description": "",
-      "id": 7
-    },
-    {
-      "title": "Test Again",
-      "timeStamp": 1653423180000,
-      "description": "",
-      "id": 8
-    },
-    {
-      "title": "sdsa",
-      "timeStamp": 1653406320000,
-      "description": "",
-      "id": 9
-    },
-    {
-      "title": "sds",
-      "timeStamp": 1653424020000,
-      "description": "sd",
-      "id": 10
-    },
-    {
-      "title": "jdjjdjdjd",
-      "timeStamp": 1653427680000,
-      "description": "",
-      "id": 11
-    },
-    {
-      "title": "dsdfs",
-      "timeStamp": 1653417420000,
-      "description": "",
-      "id": 13
     }
   ]
 }

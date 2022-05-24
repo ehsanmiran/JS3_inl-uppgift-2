@@ -57,10 +57,12 @@ body, html {
 .liActive {
   padding: .5rem;
   border-bottom: 5px solid #000000;
+  text-decoration: none;
 }
 .liActive:hover {
+  background-color: #141618;
   border-bottom: 5px solid #b46b05;
-  transition: all 500ms ease-in-out;
+  outline: 1px solid #454545;
 }
 .liActive:active {
   background-color: #312311;
@@ -195,8 +197,14 @@ textarea {
   margin-bottom: 13px !important ;
 }
 .pastevents h3,p{
-  color: #7e6e58 !important;
+  color: #7f7f7f !important;
 }
 .pastevents button{
-  background : #5d5141 !important;
+  background : #454545 !important;
+}
+.parag {
+  margin: 25px 0 25px;
+}
+.centered {
+  text-align: center;
 }
