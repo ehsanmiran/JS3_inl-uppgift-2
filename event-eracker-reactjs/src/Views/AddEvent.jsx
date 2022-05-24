@@ -9,7 +9,7 @@ const AddEvent = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const event = {title, timeStamp, description};
+    const event = {title, timeStamp: Date.parse(timeStamp), description};
 
     setLoading(true)
 
@@ -18,7 +18,6 @@ const AddEvent = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(event)
     }).then(() => {
-      console.log('new event added')
 
       setLoading(false)
     })

@@ -2,13 +2,13 @@
   "events": [
     {
       "title": "1st event",
-      "timpstamp": "1202205222118",
+      "timeStamp": "1202205222118",
       "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now.",
       "id": 1
     },
     {
       "title": "2nd event",
-      "timpstamp": "1202205222120",
+      "timeStamp": "1202205222120",
       "description": "This is just a text to fill up this field of data. It's a good way to test the json db when being used like now.",
       "id": 2
     },
@@ -17,6 +17,12 @@
       "timeStamp": "2022-05-24T04:47",
       "description": "Test",
       "id": 3
+    },
+    {
+      "title": "4th Event test",
+      "timeStamp": 1653364080000,
+      "description": "Test",
+      "id": 4
     }
   ]
 }

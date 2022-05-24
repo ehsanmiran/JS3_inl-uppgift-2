@@ -147,6 +147,8 @@ placeholder {
   color: #000000;
 }
 .event-line {
+  display: flex;
+  justify-content: space-between;
   border: solid 2px #2a2a2a;
   border-radius: 13px;
   margin-bottom: 0.8rem;
@@ -177,4 +179,7 @@ padding: 0 25px 0;
 }
 .timestamp input::-webkit-calendar-picker-indicator {
   filter: invert(1);
+}
+textarea {
+  resize: none;
 }
