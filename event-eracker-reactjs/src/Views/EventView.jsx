@@ -24,7 +24,7 @@ const Event = () => {
     fetch('http://localhost:8080/events/' + event.id, {
       method: 'DELETE'
     })
-    setTimeout ( () => navigate('/'), 250); 
+    setTimeout ( () => navigate(-1), 250); 
   }
 
   return (
