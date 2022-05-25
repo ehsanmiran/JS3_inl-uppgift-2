@@ -54,7 +54,7 @@ const AddEvent = () => {
         </div>
         {!loading && <button className='btn'>Add event</button>}
         {loading && <button className='btn'>Adding...</button>}
-        {!verification && <p>Tile, Date and Time can not be empty.</p>}
+        {!verification && <p>Title, Date and Time can not be empty.</p>}
       </form>
     </div>
   )
